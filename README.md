@@ -10,14 +10,14 @@
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-green"></a>
 </p>
 
-**AutoOpt** is an end-to-end **automated optimization framework** that takes an *image of a mathematical formulation* and solves it without human intervention.  
+**AutoOpt** is an end-to-end **automated optimization framework** that takes the *image of a mathematical program (optimization problem)* and solves it without human intervention.  
 
 Currently available modules:
 
-* **M1 · Image → LaTeX (MER)** — Hybrid CNN‑Transformer model for equation understanding.
-* **M2 · LaTeX → Pyomo** — Fine‑tuned code generation model translating LaTeX to optimization code.
+* **M1 · Image → LaTeX (MER)** — Hybrid CNN‑Transformer model for converting image of a mathematical program into LaTeX script.
+* **M2 · LaTeX → Pyomo** — Fine‑tuned code generation model for translating LaTeX script to PYOMO (modelling language) code.
 
-> **M3 · Solver** — *To be released soon*
+> **M3 · Solver** — Understands the PYOMO code and solves the mathematical program using a bilevel decomposition approach *(To be released soon)*
 
 ---
 
@@ -130,12 +130,13 @@ The dataset spans linear, nonlinear, convex, nonconvex, and stochastic optimizat
 ## 🧾 Citation
 
 ```bibtex
-@article{AutoOpt2025,
-  title   = {AutoOpt: A Dataset and a Unified Framework for Automating Optimization Problem Solving},
-  author  = {Ankur Sinha and Shobhit Arora and Dhaval Pujara},
-  journal = {arXiv preprint arXiv:2510.21436},
-  year    = {2025},
-  url     = {https://arxiv.org/abs/2510.21436}
+@inproceedings{Sinha2025AutoOpt,
+  title     = {AutoOpt: A Dataset and a Unified Framework for Automating Optimization Problem Solving},
+  author    = {Ankur Sinha and Shobhit Arora and Dhaval Pujara},
+  booktitle = {Proceedings of the 39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025)},
+  year      = {2025},
+  note      = {arXiv preprint arXiv:2510.21436},
+  url       = {https://arxiv.org/abs/2510.21436}
 }
 ```
 
