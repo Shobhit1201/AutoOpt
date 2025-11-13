@@ -1,4 +1,4 @@
-# AutoOpt: Unified Framework for Automated Optimization Understanding
+# AutoOpt: Unified Framework for Automated Optimization Understanding (NeurIPS 2025)
 
 <p align="center">
   <a href="https://arxiv.org/abs/2510.21436"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv%3A2510.21436-white"></a>
