@@ -38,7 +38,7 @@ The AutoOpt framework unifies perception, translation, and solving of optimizati
 
 ```bash
 git clone https://github.com/Shobhit1201/AutoOpt.git
-cd AutoOpt
+cd AutoOpt/Module_M1
 pip install -U pip wheel setuptools
 pip install -r requirements.txt
 ```
@@ -138,12 +138,6 @@ The dataset spans linear, nonlinear, convex, nonconvex, and stochastic optimizat
   url     = {https://arxiv.org/abs/2510.21436}
 }
 ```
-
----
-
-## 🤝 Acknowledgments
-
-AutoOpt builds upon prior open research including [Nougat](https://github.com/facebookresearch/nougat) and [Nougat‑LaTeX‑OCR](https://github.com/NormXU/nougat-latex-ocr), extending them into the **optimization problem understanding** domain.
 
 ---
 
